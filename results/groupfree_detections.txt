@@ -1,0 +1,579 @@
+Submitting to the BenchBot system with the following settings:
+
+    Submission mode:             native
+    Perform evaluation:          Yes (omq)
+    Results save location:       results/groupfree.json
+
+    Command to execute:          python3 shetti-group/my_groupfree_slam.py
+
+[0;32m
+################################################################################
+##################### Running submission in 'native' mode ######################
+################################################################################[0m
+
+
+Removed any existing cached results from: /tmp/benchbot_result
+
+Running submission natively via command:
+	'python3 shetti-group/my_groupfree_slam.py' ...
+
+Welcome to my Semantic SLAM solution!
+/home/trunc8/villa/Basement/Playground/rvsu/shetti-group/Group/demo_files
+hello
+/home/trunc8/villa/Basement/Playground/rvsu/shetti-group/Group/demo_files/sunrgbd_l6o256_cls_agnostic.pth
+Constructed model.
+cuda:0
+Waiting to establish connection to a running supervisor ... Connected!
+Waiting to establish connection to a running robot ... Connected!
+Dirty robot state detected. Performing reset ... Complete.
+
+######### Frame 1 ######
+
+6 object(s) detected
+
+>>>>>>> Printing detections:
+bed [2.16, -0.23, -0.05]
+chair [2.35, 0.14, 0.3]
+table [2.42, -0.6, 0.81]
+chair [0.34, -0.48, 0.39]
+table [2.77, -0.1, 0.33]
+table [2.31, -0.92, 0.87]
+<<<<<< Finished printing detections!
+Detectesd 6 objects in the frame: bed,chair,table,chair,table,table
+Sending action 'move_next' with args: {}
+
+######### Frame 2 ######
+
+4 object(s) detected
+
+>>>>>>> Printing detections:
+chair [1.65, 0.02, 0.4]
+chair [2.52, 0.13, -0.03]
+chair [2.49, -0.38, 0.3]
+table [2.76, -0.37, 0.48]
+<<<<<< Finished printing detections!
+Detectesd 4 objects in the frame: chair,chair,chair,table
+Sending action 'move_next' with args: {}
+
+######### Frame 3 ######
+
+6 object(s) detected
+
+>>>>>>> Printing detections:
+chair [0.44, -0.26, 0.67]
+chair [1.45, -0.31, 0.22]
+chair [0.21, -0.4, 0.4]
+chair [0.21, -0.83, 0.62]
+chair [0.26, -0.84, 0.58]
+bed [1.31, -0.85, 0.77]
+<<<<<< Finished printing detections!
+Detectesd 6 objects in the frame: chair,chair,chair,chair,chair,bed
+Sending action 'move_next' with args: {}
+
+######### Frame 4 ######
+
+2 object(s) detected
+
+>>>>>>> Printing detections:
+chair [-0.08, -0.04, 0.58]
+chair [0.33, -0.5, 0.46]
+<<<<<< Finished printing detections!
+Detectesd 2 objects in the frame: chair,chair
+Sending action 'move_next' with args: {}
+
+######### Frame 5 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 6 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 7 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 8 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 9 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 10 ######
+
+5 object(s) detected
+
+>>>>>>> Printing detections:
+sofa [-0.55, 0.27, 0.54]
+chair [-0.13, -0.44, 0.51]
+chair [-0.33, 0.48, -0.1]
+bed [-0.39, 0.67, 0.5]
+table [-0.74, 0.3, 0.42]
+<<<<<< Finished printing detections!
+Detectesd 5 objects in the frame: sofa,chair,chair,bed,table
+Sending action 'move_next' with args: {}
+
+######### Frame 11 ######
+
+6 object(s) detected
+
+>>>>>>> Printing detections:
+chair [-0.0, -0.97, 0.45]
+chair [0.26, -0.79, 0.4]
+chair [0.77, -0.5, 0.53]
+sofa [0.6, -0.59, 0.53]
+table [0.73, -1.03, 0.4]
+chair [1.18, -0.66, 0.37]
+<<<<<< Finished printing detections!
+Detectesd 6 objects in the frame: chair,chair,chair,sofa,table,chair
+Sending action 'move_next' with args: {}
+
+######### Frame 12 ######
+
+4 object(s) detected
+
+>>>>>>> Printing detections:
+chair [0.0, -0.84, 0.2]
+bed [0.5, -1.0, 0.4]
+toilet [0.79, -0.79, 0.25]
+table [0.5, -0.94, 0.46]
+<<<<<< Finished printing detections!
+Detectesd 4 objects in the frame: chair,bed,toilet,table
+Sending action 'move_next' with args: {}
+
+######### Frame 13 ######
+
+3 object(s) detected
+
+>>>>>>> Printing detections:
+chair [1.8, -0.59, 0.13]
+bed [2.11, -0.33, 0.24]
+chair [1.11, -0.91, 0.24]
+<<<<<< Finished printing detections!
+Detectesd 3 objects in the frame: chair,bed,chair
+Sending action 'move_next' with args: {}
+
+######### Frame 14 ######
+
+1 object(s) detected
+
+>>>>>>> Printing detections:
+chair [1.48, -0.39, 0.08]
+<<<<<< Finished printing detections!
+Detectesd 1 objects in the frame: chair
+Sending action 'move_next' with args: {}
+
+######### Frame 15 ######
+
+6 object(s) detected
+
+>>>>>>> Printing detections:
+chair [1.81, -0.57, 0.44]
+table [2.47, -0.64, 0.73]
+chair [1.63, -0.62, 0.17]
+chair [1.95, -1.16, 0.51]
+bed [2.08, 0.06, 0.12]
+table [2.22, -0.31, 0.31]
+<<<<<< Finished printing detections!
+Detectesd 6 objects in the frame: chair,table,chair,chair,bed,table
+Sending action 'move_next' with args: {}
+
+######### Frame 16 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 17 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 18 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 19 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 20 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 21 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 22 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 23 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 24 ######
+
+8 object(s) detected
+
+>>>>>>> Printing detections:
+chair [1.32, -0.08, 0.17]
+chair [1.46, -0.52, 0.37]
+table [2.4, -0.05, 0.13]
+chair [1.67, -0.57, 0.4]
+table [2.75, 0.15, 0.23]
+bed [2.56, -0.51, 0.41]
+bed [7.01, -22.84, 12.65]
+<<<<<< Finished printing detections!
+Detectesd 7 objects in the frame: chair,chair,table,chair,table,bed,bed
+Sending action 'move_next' with args: {}
+
+######### Frame 25 ######
+
+2 object(s) detected
+
+>>>>>>> Printing detections:
+chair [2.23, 0.12, 0.16]
+chair [1.2, -0.87, 1.05]
+<<<<<< Finished printing detections!
+Detectesd 2 objects in the frame: chair,chair
+Sending action 'move_next' with args: {}
+
+######### Frame 26 ######
+
+5 object(s) detected
+
+>>>>>>> Printing detections:
+chair [2.07, 0.19, 0.14]
+table [2.14, -0.39, 0.42]
+chair [1.99, -0.2, 0.09]
+chair [2.18, -0.94, 0.65]
+bed [2.37, 0.05, 0.27]
+<<<<<< Finished printing detections!
+Detectesd 5 objects in the frame: chair,table,chair,chair,bed
+Sending action 'move_next' with args: {}
+
+######### Frame 27 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 28 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 29 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 30 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 31 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 32 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 33 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 34 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 35 ######
+
+8 object(s) detected
+
+>>>>>>> Printing detections:
+chair [0.44, -0.57, 0.23]
+bed [0.52, -0.71, 0.22]
+table [-0.55, 0.7, 0.35]
+table [-0.3, 0.9, 0.31]
+table [-0.14, -0.31, 0.57]
+bed [0.33, -0.46, 0.69]
+<<<<<< Finished printing detections!
+Detectesd 6 objects in the frame: chair,bed,table,table,table,bed
+Sending action 'move_next' with args: {}
+
+######### Frame 36 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 37 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 38 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 39 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 40 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 41 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 42 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 43 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 44 ######
+
+1 object(s) detected
+
+>>>>>>> Printing detections:
+bed [-0.35, 2.97, 0.04]
+<<<<<< Finished printing detections!
+Detectesd 1 objects in the frame: bed
+Sending action 'move_next' with args: {}
+
+######### Frame 45 ######
+
+1 object(s) detected
+
+>>>>>>> Printing detections:
+bed [-0.53, 3.0, -0.08]
+<<<<<< Finished printing detections!
+Detectesd 1 objects in the frame: bed
+Sending action 'move_next' with args: {}
+
+######### Frame 46 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+
+######### Frame 47 ######
+
+1 object(s) detected
+
+>>>>>>> Printing detections:
+bed [-0.28, 2.94, -0.14]
+<<<<<< Finished printing detections!
+Detectesd 1 objects in the frame: bed
+Sending action 'move_next' with args: {}
+
+######### Frame 48 ######
+
+0 object(s) detected
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Detectesd 0 objects in the frame: 
+Sending action 'move_next' with args: {}
+Moving to next scene ... Failed.
+[0;34m
+################################################################################
+############################## Processing results ##############################
+################################################################################[0m
+
+
+Copying results from '/tmp/benchbot_result' to 'results/groupfree.json' ...
+sending incremental file list
+benchbot_result
+         16,086 100%    0.00kB/s    0:00:00           16,086 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 16,203 bytes  received 35 bytes  32,476.00 bytes/sec
+total size is 16,086  speedup is 0.99
+
+Running evaluation on results from 'results/groupfree.json' ... 
+[0;32m
+################################################################################
+#################### Running validation over 1 input files #####################
+################################################################################[0m
+
+Loading data from 'results/groupfree.json' ...
+	Done.
+
+Validating data in 1 results files:
+	results/groupfree.json ...
+		Passed.
+[0;32m
+################################################################################
+#################### Running evaluation over 1 input files #####################
+################################################################################[0m
+
+
+Scores for 'results/groupfree.json':
+
+{'OMQ': 0.008759101813637883,
+ 'avg_fp_quality': 0.21303860346476236,
+ 'avg_label': 0.8951340913772583,
+ 'avg_pairwise': 0.08917152881622314,
+ 'avg_spatial': 0.00889548659324646}
+
+--------------------------------------------------------------------------------
+
+
+Final scores for the 'semantic_slam:passive:ground_truth' task:
+
+{'OMQ': 0.008759101813637883,
+ 'avg_fp_quality': 0.21303860346476236,
+ 'avg_label': 0.8951340913772583,
+ 'avg_pairwise': 0.08917152881622314,
+ 'avg_spatial': 0.00889548659324646}
+
+Done.

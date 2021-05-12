@@ -1,0 +1,8 @@
+networkx==2.2
+plyfile==0.7.3
+pointnet2==0.0.0
+torch==1.8.1+cu111
+torchaudio==0.8.1
+torchvision==0.9.1+cu111
+trimesh==2.35.39
+typing-extensions==3.7.4.3

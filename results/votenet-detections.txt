@@ -1,0 +1,563 @@
+Submitting to the BenchBot system with the following settings:
+
+    Submission mode:             native
+    Perform evaluation:          Yes (omq)
+    Results save location:       results/votenet.json
+
+    Command to execute:          python3 my_semantic_slam/my_semantic_slam.py
+
+[0;32m
+################################################################################
+##################### Running submission in 'native' mode ######################
+################################################################################[0m
+
+
+Removed any existing cached results from: /tmp/benchbot_result
+
+Running submission natively via command:
+	'python3 my_semantic_slam/my_semantic_slam.py' ...
+
+Welcome to my Semantic SLAM solution!
+Constructed model.
+Loaded checkpoint /home/trunc8/villa/Basement/Playground/rvsu/votenet/demo_files/pretrained_votenet_on_sunrgbd.tar (epoch: 180)
+Waiting to establish connection to a running supervisor ... Connected!
+Waiting to establish connection to a running robot ... Connected!
+
+######### Frame 1 ######
+
+Inference time: 0.884495
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 2 ######
+
+Inference time: 0.158487
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 3 ######
+
+Inference time: 0.159208
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 4 ######
+
+Inference time: 0.153685
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 5 ######
+
+Inference time: 0.140259
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.52, 1.63, 0.45]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 6 ######
+
+Inference time: 0.148400
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.55, 1.56, 0.49]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 7 ######
+
+Inference time: 0.131943
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.56, 1.59, 0.52]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 8 ######
+
+Inference time: 0.132717
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.53, 1.57, 0.48]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 9 ######
+
+Inference time: 0.145892
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 10 ######
+
+Inference time: 0.163221
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 11 ######
+
+Inference time: 0.160038
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 12 ######
+
+Inference time: 0.168785
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 13 ######
+
+Inference time: 0.155032
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 14 ######
+
+Inference time: 0.155792
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 15 ######
+
+Inference time: 0.159508
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 16 ######
+
+Inference time: 0.161851
+Finished detection. 4 objects detected.
+
+>>>>>>> Printing detections:
+table [2.57, 2.7, 0.32]
+bed [2.47, -0.06, 0.38]
+chair [2.94, 2.41, 0.43]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 17 ######
+
+Inference time: 0.152229
+Finished detection. 3 objects detected.
+
+>>>>>>> Printing detections:
+chair [2.99, 2.36, 0.43]
+table [2.51, 2.67, 0.35]
+chair [1.96, 2.92, 0.48]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 18 ######
+
+Inference time: 0.148829
+Finished detection. 3 objects detected.
+
+>>>>>>> Printing detections:
+table [2.55, 2.67, 0.38]
+chair [2.89, 2.45, 0.35]
+chair [1.97, 2.86, 0.44]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 19 ######
+
+Inference time: 0.145922
+Finished detection. 3 objects detected.
+
+>>>>>>> Printing detections:
+table [2.54, 2.65, 0.35]
+chair [2.99, 2.36, 0.38]
+chair [1.99, 2.86, 0.41]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 20 ######
+
+Inference time: 0.138056
+Finished detection. 4 objects detected.
+
+>>>>>>> Printing detections:
+chair [3.05, 2.32, 0.37]
+table [2.56, 2.65, 0.35]
+chair [1.97, 2.89, 0.37]
+table [2.58, 2.67, 0.34]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 21 ######
+
+Inference time: 0.142936
+Finished detection. 5 objects detected.
+
+>>>>>>> Printing detections:
+table [2.87, 2.46, 0.39]
+chair [3.02, 2.38, 0.43]
+bed [2.56, -0.03, 0.42]
+table [2.54, 2.67, 0.33]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 22 ######
+
+Inference time: 0.160137
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+bed [2.48, -0.03, 0.34]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 23 ######
+
+Inference time: 0.134463
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+bed [2.86, 0.01, 0.37]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 24 ######
+
+Inference time: 0.168419
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 25 ######
+
+Inference time: 0.162468
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 26 ######
+
+Inference time: 0.175608
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 27 ######
+
+Inference time: 0.155792
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+bed [2.67, -0.01, 0.38]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 28 ######
+
+Inference time: 0.134071
+Finished detection. 3 objects detected.
+
+>>>>>>> Printing detections:
+table [3.07, 1.08, 0.11]
+table [3.07, 1.08, 0.11]
+chair [2.94, 2.41, 0.36]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 29 ######
+
+Inference time: 0.141679
+Finished detection. 4 objects detected.
+
+>>>>>>> Printing detections:
+chair [2.99, 2.33, 0.39]
+table [2.44, 2.7, 0.31]
+chair [2.23, 2.86, 0.33]
+table [2.43, 2.7, 0.31]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 30 ######
+
+Inference time: 0.147003
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+chair [1.93, 2.9, 0.37]
+table [2.49, 2.61, 0.35]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 31 ######
+
+Inference time: 0.147094
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 32 ######
+
+Inference time: 0.149190
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.51, 1.67, 0.41]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 33 ######
+
+Inference time: 0.166656
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.53, 1.63, 0.47]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 34 ######
+
+Inference time: 0.149563
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+chair [-0.54, 1.65, 0.46]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 35 ######
+
+Inference time: 0.154586
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 36 ######
+
+Inference time: 0.161431
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 37 ######
+
+Inference time: 0.142924
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 38 ######
+
+Inference time: 0.119692
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 39 ######
+
+Inference time: 0.152167
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 40 ######
+
+Inference time: 0.142153
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+chair [1.98, 2.86, 0.48]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 41 ######
+
+Inference time: 0.138289
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 42 ######
+
+Inference time: 0.126041
+Finished detection. 2 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 43 ######
+
+Inference time: 0.132907
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 44 ######
+
+Inference time: 0.124923
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 45 ######
+
+Inference time: 0.122196
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 46 ######
+
+Inference time: 0.129128
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 47 ######
+
+Inference time: 0.123227
+Finished detection. 0 objects detected.
+
+>>>>>>> Printing detections:
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+
+######### Frame 48 ######
+
+Inference time: 0.130169
+Finished detection. 1 objects detected.
+
+>>>>>>> Printing detections:
+table [-0.41, 2.99, 0.67]
+<<<<<< Finished printing detections!
+Sending action 'move_next' with args: {}
+Moving to next scene ... Failed.
+[0;34m
+################################################################################
+############################## Processing results ##############################
+################################################################################[0m
+
+
+Copying results from '/tmp/benchbot_result' to 'results/votenet.json' ...
+sending incremental file list
+benchbot_result
+         18,804 100%    0.00kB/s    0:00:00  
+         18,804 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+
+sent 18,920 bytes  received 35 bytes  37,910.00 bytes/sec
+total size is 18,804  speedup is 0.99
+
+Running evaluation on results from 'results/votenet.json' ... 
+[0;32m
+################################################################################
+#################### Running validation over 1 input files #####################
+################################################################################[0m
+
+Loading data from 'results/votenet.json' ...
+	Done.
+
+Validating data in 1 results files:
+	results/votenet.json ...
+		Passed.
+[0;32m
+################################################################################
+#################### Running evaluation over 1 input files #####################
+################################################################################[0m
+
+
+Scores for 'results/votenet.json':
+
+{'OMQ': 0.2270351637188197,
+ 'avg_fp_quality': 0.09512311220169067,
+ 'avg_label': 0.9802857240041097,
+ 'avg_pairwise': 0.71534530321757,
+ 'avg_spatial': 0.5242329438527426}
+
+--------------------------------------------------------------------------------
+
+
+Final scores for the 'semantic_slam:passive:ground_truth' task:
+
+{'OMQ': 0.2270351637188197,
+ 'avg_fp_quality': 0.09512311220169067,
+ 'avg_label': 0.9802857240041097,
+ 'avg_pairwise': 0.71534530321757,
+ 'avg_spatial': 0.5242329438527426}
+
+Done.
+
+
+        eval_config_dict = {
+            'remove_empty_box': True,
+            'use_3d_nms': True,
+            'nms_iou': 0.1,
+            'use_old_type_nms': False,
+            'cls_nms': True,
+            'per_class_proposal': False,
+            'conf_thresh': 0.8,
+            'dataset_config': DC
+        }

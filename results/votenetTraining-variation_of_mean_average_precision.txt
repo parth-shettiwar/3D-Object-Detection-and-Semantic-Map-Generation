@@ -1,0 +1,55 @@
+
+**** EPOCH 000 ****
+eval book Average Precision: 0.000112
+eval bottle Average Precision: 0.000000
+eval bowl Average Precision: 0.000147
+eval cup Average Precision: 0.000003
+eval keyboard Average Precision: 0.000159
+eval mouse Average Precision: 0.000001
+eval plant Average Precision: 0.000001
+eval tv Average Precision: 0.000036
+eval mAP: 0.000057
+
+**** EPOCH 045 ****
+eval book Average Precision: 0.003000
+eval bottle Average Precision: 0.002808
+eval bowl Average Precision: 0.012083
+eval cup Average Precision: 0.001308
+eval keyboard Average Precision: 0.010886
+eval mouse Average Precision: 0.000013
+eval plant Average Precision: 0.227795
+eval tv Average Precision: 0.189752
+eval mAP: 0.055956
+
+**** EPOCH 090 ****
+eval book Average Precision: 0.036041
+eval bottle Average Precision: 0.040588
+eval bowl Average Precision: 0.049720
+eval cup Average Precision: 0.017076
+eval keyboard Average Precision: 0.040400
+eval mouse Average Precision: 0.006748
+eval plant Average Precision: 0.385905
+eval tv Average Precision: 0.523133
+eval mAP: 0.137451
+
+**** EPOCH 135 ****
+eval book Average Precision: 0.026205
+eval bottle Average Precision: 0.049447
+eval bowl Average Precision: 0.034368
+eval cup Average Precision: 0.035618
+eval keyboard Average Precision: 0.035379
+eval mouse Average Precision: 0.014780
+eval plant Average Precision: 0.484167
+eval tv Average Precision: 0.607143
+eval mAP: 0.160888
+
+**** EPOCH 180 ****
+eval book Average Precision: 0.031728
+eval bottle Average Precision: 0.047751
+eval bowl Average Precision: 0.030165
+eval cup Average Precision: 0.055112
+eval keyboard Average Precision: 0.038919
+eval mouse Average Precision: 0.002179
+eval plant Average Precision: 0.479893
+eval tv Average Precision: 0.568589
+eval mAP: 0.156792
