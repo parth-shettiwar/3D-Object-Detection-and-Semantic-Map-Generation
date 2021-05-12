@@ -1,8 +1,4 @@
-# Course Project for CS763
-Group 007
-
-### Title
->3D Object Detection and Semantic Map Generation
+# 3D Object Detection and Semantic Map Generation
 
 ### Installation steps
 The necessary packages have been enlisted in `requirements.txt` but installation of certain packages like `torch` would have OS-specific instructions.
