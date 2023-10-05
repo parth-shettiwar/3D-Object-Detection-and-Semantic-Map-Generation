@@ -26,6 +26,10 @@ The three approaches are as follows:
 
 An interesting task was to stitch the inferences for every frame. We transformed the inferences to global coordinates (true camera pose is provided)and implemented 3D Non-maximum suppression. This removes the repetitions of the object and allows to get rid of noisy inferences too. The NMS is also performed across classes of objects sharing spatial overlap.
 
+## Authors
+1) Parth Shettiwar
+2) Siddharth Saha
+   
 ### References
 - [How to read an image from diode dataset](https://github.com/diode-dataset/diode-devkit/blob/master/diode.py)
 - [Conversion from depth image to pointcloud](https://medium.com/yodayoda/from-depth-map-to-point-cloud-7473721d3f)
